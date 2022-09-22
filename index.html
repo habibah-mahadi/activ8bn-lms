@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activ8 BN Digital Solution</title>
+    <link href="css/font.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <!-- WRITE YOUR OWN CSS IN CUSTOM.CSS. FEEL FREE TO MODIFY -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="top-navbar d-flex">
+            <div class="container d-flex justify-content-between flex-column flex-lg-row">
+                <div
+                    class="top-contact-box border-bottom d-flex flex-column flex-md-row align-items-center justify-content-center">
+
+                    <div class="d-flex align-items-center justify-content-center">
+
+                    </div>
+
+                    <div class="d-flex align-items-center justify-content-between justify-content-md-center">
+                        <form action="#" method="get"
+                            class="form-inline my-2 my-lg-0 navbar-search position-relative">
+                            <input class="form-control mr-5 rounded" type="text" name="search" placeholder="Search..."
+                                aria-label="Search">
+
+                            <button type="submit"
+                                class="btn-transparent d-flex align-items-center justify-content-center search-icon">
+                                <i data-feather="search" width="20" height="20" class="mr-10"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="xs-w-100 d-flex align-items-center justify-content-between ">
+                    <div class="d-flex">
+
+                        <div class="dropdown">
+                            <button type="button" disabled class="btn btn-transparent dropdown-toggle"
+                                id="navbarShopingCart" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <i data-feather="shopping-cart" width="20" height="20" class="mr-10"></i>
+
+                            </button>
+
+                            <div class="dropdown-menu" aria-labelledby="navbarShopingCart">
+                                <div class="d-md-none border-bottom mb-20 pb-10 text-right">
+                                    <i class="close-dropdown" data-feather="x" width="32" height="32" class="mr-10"></i>
+                                </div>
+                                <div class="h-100">
+                                    <div class="navbar-shopping-cart h-100" data-simplebar>
+                                        <div class="d-flex align-items-center text-center py-50">
+                                            <i data-feather="shopping-cart" width="20" height="20" class="mr-10"></i>
+                                            <span class="">Your cart is empty</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-separator mx-5 mx-lg-15"></div>
+
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-transparent dropdown-toggle" disabled
+                                id="navbarNotification" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <i data-feather="bell" width="20" height="20" class="mr-10"></i>
+
+                            </button>
+
+                            <div class="dropdown-menu pt-20" aria-labelledby="navbarNotification">
+                                <div class="d-flex flex-column h-100">
+                                    <div class="mb-auto navbar-notification-card" data-simplebar>
+                                        <div class="d-md-none border-bottom mb-20 pb-10 text-right">
+                                            <i class="close-dropdown" data-feather="x" width="32" height="32"
+                                                class="mr-10"></i>
+                                        </div>
+
+                                        <div class="d-flex align-items-center text-center py-50">
+                                            <i data-feather="bell" width="20" height="20" class="mr-10"></i>
+                                            <span class="">Empty notifications</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="d-flex align-items-center ml-md-50">
+                        <a href="#" class="py-5 px-10 mr-10 text-white font-14">Login</a>
+                        <a href="#" class="py-5 px-10 text-white font-14">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="navbarVacuum"></div>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-lg-between w-100">
+
+                    <a class="navbar-brand navbar-order mr-0" href="/">
+                        <img src="img/LiveWIRE_logo_800px.png" class="img-cover" alt="site logo">
+                    </a>
+
+                    <button class="navbar-toggler navbar-order" type="button" id="navbarToggle">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="d-none d-lg-flex flex-grow-1 navbar-toggle-content justify-content-end"
+                        id="navbarContent">
+                        <div class="navbar-toggle-header text-right d-lg-none">
+                            <button class="btn-transparent" id="navbarClose">
+                                <i data-feather="x" width="32" height="32"></i>
+                            </button>
+                        </div>
+
+                        <ul class="navbar-nav d-flex align-items-center">
+                            <li class="mr-lg-25">
+                                <div class="menu-category">
+                                    <ul>
+                                        <li class="cursor-pointer user-select-none d-flex xs-categories-toggle">
+                                            <i data-feather="grid" width="20" height="20" class="mr-10 d-none d-lg-block"></i> Categories
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Instructors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </nav>
+
+        <!-- EDIT START HERE-->
+
+        <section class="cart-banner position-relative text-center">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-12 col-md-9 col-lg-7">
+                        <h1 class="font-30 text-white font-weight-bold">Some title here<br>(you may delete this section)</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container mt-10 mt-md-40">
+            <p>You can use <u><a href="https://feathericons.com/" target="_blank">Feather icons</a> <i data-feather="external-link" width="10px"></i></u> like this:</p>
+            <ul>
+                <li><i data-feather="facebook" class="icon"></i> Facebook (stroke)</li>
+                <li><i data-feather="facebook" class="icon-fill"></i> Facebook (fill)</li>
+                <li><i data-feather="instagram" class="icon"></i> Instagram (stroke)</li>
+                <li><i data-feather="instagram" class="icon-fill"></i> Instagram (fill)</li>
+            </ul>
+        </section>
+
+        <!-- EDIT END HERE -->
+
+        <footer class="footer bg-secondary position-relative user-select-none">
+            <div class="container pt-30">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <span class="header d-block text-white font-weight-bold">About LiveWIRE Courses</span>
+
+                        <div class="mt-20">
+                            <p><span style="font-family: Arial, Roboto, Helvetica, sans-serif;">
+                                    <font color="#ffffff">At Shell LiveWIRE Brunei we offer a range of courses to
+                                        enhance your entrepreneurship journey</font>
+                                </span></p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3"></div>
+                    <div class="col-6 col-md-3"></div>
+                    <div class="col-6 col-md-3"></div>
+
+                </div>
+
+                <div class="mt-40 border-blue py-25 d-flex align-items-center justify-content-between">
+                    <div class="footer-logo">
+                        <a href="/">
+                            <img src="img/LiveWIRE_logo_800px.png" class="img-cover" alt="footer logo">
+                        </a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/livewirebrunei">
+                            <img src="img/instagram.svg" alt="Instagram" class="mr-15">
+                        </a>
+                        <a href="https://bn.linkedin.com/company/shell-livewire-brunei">
+                            <img src="img/linkedin.svg" alt="LinkedIn" class="mr-15">
+                        </a>
+                        <a href="https://twitter.com/lwbrunei">
+                            <img src="img/twitter.svg" alt="Twitter" class="mr-15">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>

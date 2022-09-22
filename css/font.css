@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Futura Regular'), local('Futura-Regular'), url(../fonts/futura/futura-regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: medium;
+  font-display: swap;
+  src: local('Futura Medium'), local('futura-medium-bt'), url(../fonts/futura/futura-medium-bt.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: local('Futura Bold'), local('futura-heavy-bt'), url(../fonts/futura/futura-heavy-bt.ttf) format('truetype');
+}
