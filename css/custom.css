@@ -1,8 +1,17 @@
 .icon {
-    stroke: #fcc50d;
+    stroke: #126d00;
+    width: 50px;
+    height: 50px;
 }
 
 .icon-fill {
     stroke: #181818;
-    fill: #fcc50d;
+    fill: #126d00;
 }
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: auto;
+  }
